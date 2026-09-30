@@ -1,0 +1,57 @@
+query,intent
+"Find me a house with 3 bedrooms",property_search
+"Show me homes under $400000",price_search
+"Find houses with a swimming pool",amenity_search
+"Show me homes with a garage",amenity_search
+"Find condos downtown",location_search
+"Show me homes near schools",location_search
+"Find homes with a fireplace",amenity_search
+"Show me houses with a large backyard",outdoor_feature_search
+"Find homes with a home office",room_search
+"Show me houses with an open floor plan",interior_feature_search
+"Find homes with quartz countertops",kitchen_feature_search
+"Show me properties with granite countertops",kitchen_feature_search
+"Find homes with a primary suite",room_search
+"Show me homes with a walk-in closet",room_search
+"Find houses with hardwood floors",interior_feature_search
+"Show me homes with natural light",interior_feature_search
+"Find homes near restaurants",location_search
+"Show me properties close to parks",location_search
+"Find homes near the beach",location_search
+"Show me waterfront properties",location_search
+"Find a townhouse with 3 bedrooms",property_type_search
+"Show me condos for sale",property_type_search
+"Find a single family home",property_type_search
+"Show me new construction homes",property_type_search
+"Find renovated homes",condition_search
+"Show me move-in ready homes",condition_search
+"Find recently renovated properties",condition_search
+"Show me well-maintained homes",condition_search
+"Find homes with high ceilings",amenity_search
+"Show me homes with recessed lighting",amenity_search
+"Find homes with a balcony",outdoor_feature_search
+"Show me homes with a patio",outdoor_feature_search
+"Find homes with a deck",outdoor_feature_search
+"Show me homes with a fenced yard",outdoor_feature_search
+"Find homes with a pool and spa",outdoor_feature_search
+"Show me houses with a laundry room",room_search
+"Find homes with a dining room",room_search
+"Show me houses with a family room",room_search
+"Find homes with a large kitchen",kitchen_feature_search
+"Show me kitchens with stainless steel appliances",kitchen_feature_search
+"Find homes with a kitchen island",kitchen_feature_search
+"Show me homes with a pantry",kitchen_feature_search
+"Find properties under $300000",price_search
+"Show me homes between $300000 and $500000",price_search
+"Find luxury homes",price_search
+"Show me recently sold homes",transaction_search
+"Find homes that are currently for sale",transaction_search
+"Show me active listings",transaction_search
+"Find homes with an open house",transaction_search
+"Show me homes under contract",transaction_search
+"Find homes near a golf course",location_search
+"Show me homes in a quiet neighborhood",location_search
+"Find homes within walking distance of restaurants",location_search
+"Show me homes with mountain views",view_search
+"Find homes with water views",view_search
+"Show me homes with a private yard",outdoor_feature_search

@@ -1,0 +1,71 @@
+{
+  "property_types": [
+    "single family home", "townhouse", "condominium", "condo", "apartment",
+    "duplex", "triplex", "fourplex", "multi family", "mobile home",
+    "manufactured home", "ranch", "cottage", "villa", "estate",
+    "luxury home", "residential property", "commercial property",
+    "investment property", "vacant land", "lot", "parcel",
+    "new construction", "custom home", "starter home", "townhome"
+  ],
+  "rooms_and_interior": [
+    "primary suite", "master suite", "bedroom", "bathroom", "living room",
+    "family room", "dining room", "dining area", "kitchen", "home office",
+    "office", "laundry room", "bonus room", "media room", "game room",
+    "great room", "mudroom", "foyer", "entryway", "walk-in closet",
+    "closet", "storage room", "pantry", "guest room", "guest bedroom",
+    "primary bedroom", "living space", "floor plan", "open floor plan"
+  ],
+  "kitchen_features": [
+    "stainless steel", "stainless steel appliances", "quartz countertops",
+    "granite countertops", "countertops", "kitchen island", "island",
+    "cabinetry", "custom cabinetry", "wood cabinets", "appliances",
+    "refrigerator", "dishwasher", "oven", "range", "microwave",
+    "breakfast bar", "breakfast area", "pantry", "backsplash",
+    "double oven", "gas range", "electric range", "updated kitchen",
+    "modern kitchen", "eat-in kitchen"
+  ],
+  "amenities_and_features": [
+    "fireplace", "fireplace room", "natural light", "recessed lighting",
+    "lighting", "high ceilings", "vaulted ceilings", "coffered ceilings",
+    "hardwood floors", "hardwood flooring", "tile flooring", "flooring",
+    "carpet", "new flooring", "updated bathroom", "walk-in shower",
+    "garden tub", "double vanity", "central air", "air conditioning",
+    "heating", "ceiling fans", "smart home", "security system",
+    "attached garage", "two car garage", "garage", "carport"
+  ],
+  "outdoor_and_lot": [
+    "backyard", "front yard", "yard", "garden", "patio", "deck",
+    "balcony", "porch", "covered patio", "pool", "swimming pool",
+    "spa", "hot tub", "fenced yard", "privacy fence", "landscaped",
+    "landscaping", "outdoor living", "outdoor space", "fire pit",
+    "lot", "corner lot", "large lot", "private yard", "green space",
+    "mature trees", "views", "mountain views", "water views"
+  ],
+  "location_and_access": [
+    "located in", "located near", "conveniently located", "close to",
+    "easy access", "access to", "minutes from", "just minutes",
+    "shopping", "restaurants", "schools", "parks", "downtown",
+    "city center", "public transportation", "highway access",
+    "major highways", "airport", "beach", "waterfront", "lake",
+    "golf course", "neighborhood", "community", "cul-de-sac",
+    "quiet neighborhood", "walkable", "walking distance"
+  ],
+  "condition_and_quality": [
+    "new", "newly built", "new construction", "updated", "renovated",
+    "remodeled", "recently renovated", "well maintained", "well-maintained",
+    "move-in ready", "turnkey", "modern", "updated finishes",
+    "quality finishes", "custom finishes", "thoughtfully designed",
+    "beautifully designed", "spacious", "large", "cozy", "peaceful",
+    "private", "bright", "clean", "freshly painted", "recent updates"
+  ],
+  "pricing_and_transaction": [
+    "asking price", "list price", "listing price", "sale price",
+    "purchase price", "price", "price reduction", "reduced price",
+    "for sale", "on the market", "new listing", "active listing",
+    "pending", "under contract", "sold", "recently sold",
+    "open house", "showing", "offer", "multiple offers",
+    "cash offer", "financing", "mortgage", "down payment",
+    "closing costs", "closing", "seller", "buyer", "investment",
+    "rental income"
+  ]
+}
