@@ -1,0 +1,41 @@
+WEEK 2 TEXT CLEANING: BEFORE AND AFTER EXAMPLES
+
+1. Abbreviation expansion
+Before: 3 br, 2 ba
+After: 3 bedroom, 2 bathroom
+
+2. Price normalization
+Before: Listed at 450k
+After: Listed at 450000
+
+3. Million price normalization
+Before: $1.2m home
+After: $1200000 home
+
+4. Measurement normalization
+Before: 2,000 sqft
+After: 2000 square feet
+
+5. Measurement normalization
+Before: 2,000 sq. ft.
+After: 2000 square feet
+
+6. Abbreviation expansion
+Before: 2 br w/ pool
+After: 2 bedroom with pool
+
+7. HTML removal
+Before: <p>Beautiful 3 br home</p>
+After: Beautiful 3 bedroom home
+
+8. Unicode normalization
+Before: Beautiful “home” — spacious
+After: Beautiful "home" - spacious
+
+9. Abbreviation expansion
+Before: mbr suite
+After: master bedroom suite
+
+10. Whitespace normalization
+Before:   3 BR    2 BA
+After: 3 bedroom 2 bathroom

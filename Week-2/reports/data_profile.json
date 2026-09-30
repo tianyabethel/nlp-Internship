@@ -1,0 +1,67 @@
+{
+  "null_rate": 0.0,
+  "avg_length": 1317.213,
+  "common_terms": [
+    [
+      "and",
+      9363
+    ],
+    [
+      "the",
+      8360
+    ],
+    [
+      "with",
+      3666
+    ],
+    [
+      "to",
+      3356
+    ],
+    [
+      "of",
+      3000
+    ],
+    [
+      "in",
+      2967
+    ],
+    [
+      "for",
+      2485
+    ],
+    [
+      "home",
+      2417
+    ],
+    [
+      "this",
+      2262
+    ],
+    [
+      "living",
+      1908
+    ]
+  ],
+  "price_mentions": 78,
+  "has_html": 0,
+  "common_abbreviations": {
+    "br": 4,
+    "ba": 7,
+    "bdrm": 2,
+    "bdrms": 2,
+    "bd": 3,
+    "sqft": 19,
+    "sq ft": 65,
+    "sf": 21,
+    "w/": 12,
+    "a/c": 41,
+    "hvac": 61,
+    "dr": 14,
+    "w/d": 1,
+    "hoa": 121,
+    "ss": 4,
+    "yr": 2,
+    "yrs": 2
+  }
+}
