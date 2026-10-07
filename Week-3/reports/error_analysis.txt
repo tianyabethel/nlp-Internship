@@ -1,0 +1,30 @@
+Week 3 Entity Extraction Error Analysis
+
+Dataset:
+- 1,000 MLS listing remarks processed.
+- 250 remarks selected for the labeled dataset.
+- Entity types: bedrooms, bathrooms, price, square footage, and amenities.
+
+Observed failure patterns:
+
+1. Price formatting
+Prices may appear with dollar signs and comma separators, such as $2,299,000.
+The extractor currently handles plain numeric prices but requires additional validation for all price formats.
+
+2. Ambiguous numeric values
+Listing remarks contain many numbers that are not prices or square footage, including lot sizes, outdoor-space measurements, years, and other quantities.
+Regex rules can therefore confuse unrelated numbers with target entities.
+
+3. Missing entities
+Some listings do not explicitly state bedrooms, bathrooms, price, or square footage in the remarks even though those values exist in the structured MLS fields.
+
+4. Multiple measurements
+A listing may contain several square-footage measurements, such as total home square footage and outdoor living space.
+The extractor needs additional context rules to select the property square footage.
+
+5. Amenity variations
+Amenities can appear in different forms, including singular/plural variations and related phrases.
+The taxonomy-based approach helps standardize common amenity terms but can still miss uncommon wording.
+
+Overall:
+The regex-based extractor successfully identifies common structured patterns such as bedroom counts, bathroom counts, square footage, and common amenities. The main remaining errors are caused by ambiguous numbers, missing information in remarks, and variations in how listing information is written.
